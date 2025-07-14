@@ -3613,7 +3613,7 @@ td:last-child {
 
 .intro-header__overline {
     font-family   : var(--type-headings);
-    font-weight   : 400;
+    font-weight   : 200;
     font-style    : italic;
     font-size     : var(--text-lg);
     line-height   : 1;
@@ -3637,7 +3637,7 @@ td:last-child {
 }
 
 .intro-header__big-type {
-    font-size: clamp(var(--text-display), var(--text-3xl), 10.4rem);
+    font-size: clamp(1rem, 2.5vw, 15rem);
     color: white; /* Ensure the text color contrasts with the green glow */
     text-shadow: 
         0 0 5px #2C4A39, 
