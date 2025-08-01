@@ -24,6 +24,12 @@
     <link rel="icon" type="image/png" href="favicon.png">
     <link rel="apple-touch-icon" sizes="180x180" href="favicon.png">
     <link rel="manifest" href="site.webmanifest">
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            document.getElementById("confirmationPopup").style.display = "none"; // ✅ Always hide popup on reload
+        });
+        </script>
+        
 
 </head>
 
@@ -137,6 +143,26 @@
                 </div> <!-- end intro-scroll -->
             </div> <!-- grid-block -->            
         </section> <!-- end s-intro -->
+
+
+<!-- # waitlist
+================================================== -->
+<section id="waitlist" class="container s-waitlist target-section" style="text-align: center; padding: 3rem 1rem; background-color: #f5f5f5; border-top: 1px solid #ddd; margin-top: 3rem;">
+    <h2 style="margin-bottom: 1rem; color: #68937a;">Join Our Waitlist</h2>
+    <p style="margin-bottom: 1.5rem;">Be the first to know about app launch, new events, matcha drops, and exclusive offers 👀</p>
+
+    <!-- ✅ Embedded Google Form -->
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSekeiABF4vtsY84RJsdP82LG18s5dirt67RgWEKjJUuSC7TNg/viewform?embedded=true"
+            width="100%" height="600" frameborder="0" marginheight="0" marginwidth="0"
+            style="max-width: 500px; background: white; border-radius: 8px;">
+        Loading…
+    </iframe>
+</section>
+
+
+
+    
+    
 
        <!-- # about
 ================================================== -->
